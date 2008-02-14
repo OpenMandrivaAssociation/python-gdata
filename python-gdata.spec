@@ -1,5 +1,5 @@
 Name:           python-gdata
-Version:        1.0.9
+Version:        1.0.11
 Release:        %mkrel 1
 Summary:        A Python module for accessing online Google services
 
@@ -32,11 +32,11 @@ chmod 644 samples/*/*.py
 %{__python} setup.py build
 
 %install
-rm -rf $RPM_BUILD_ROOT
-%{__python} setup.py install -O1 --skip-build --root $RPM_BUILD_ROOT
+rm -rf %{buildroot}
+%{__python} setup.py install -O1 --skip-build --root %{buildroot}
  
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
