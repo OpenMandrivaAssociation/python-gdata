@@ -1,5 +1,5 @@
 Name:           python-gdata
-Version:        1.2.2
+Version:        1.2.3
 Release:        %mkrel 1
 Summary:        A Python module for accessing online Google services
 
