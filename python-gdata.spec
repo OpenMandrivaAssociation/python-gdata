@@ -1,11 +1,11 @@
 Name:           python-gdata
-Version:        1.2.4
+Version:        1.3.0
 Release:        %mkrel 1
 Summary:        A Python module for accessing online Google services
 Group:          Development/Python
 License:        ASL 2.0
 URL:            http://code.google.com/p/gdata-python-client/
-Source0:        http://gdata-python-client.googlecode.com/files/gdata.py-%{version}.tar.gz
+Source0:        http://gdata-python-client.googlecode.com/files/gdata-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch:      noarch
 BuildRequires:  python-devel
@@ -21,7 +21,7 @@ This is a Python module for accessing online Google services, such as:
 - Notebook
 
 %prep
-%setup -q -n gdata.py-%{version}
+%setup -q -n gdata-%{version}
 
 chmod 755 samples samples/*
 chmod 644 samples/*/*.py
