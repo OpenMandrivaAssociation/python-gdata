@@ -1,6 +1,6 @@
 Name:           python-gdata
 Version:        2.0.18
-Release:        1
+Release:        2
 Summary:        A Python module for accessing online Google services
 Group:          Development/Python
 License:        ASL 2.0
