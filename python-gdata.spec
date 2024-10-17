@@ -4,7 +4,7 @@ Release:        2
 Summary:        A Python module for accessing online Google services
 Group:          Development/Python
 License:        ASL 2.0
-URL:            http://code.google.com/p/gdata-python-client/
+URL:            https://code.google.com/p/gdata-python-client/
 Source0:        http://gdata-python-client.googlecode.com/files/gdata-%{version}.tar.gz
 Source1:	python-gdata.rpmlintrc
 BuildArch:      noarch
